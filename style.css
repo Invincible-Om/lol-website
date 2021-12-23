@@ -1,0 +1,38 @@
+body { 
+
+    
+    background-image: url("m3.jpg");
+
+    
+
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+   
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    filter: blur(10px);
+}
+img {
+    box-sizing: border-box;
+    
+  }
+
+div.overview {
+    text-align: center;
+    font-size: 60px;
+    color:aliceblue;
+    
+}
+div.content {
+    text-align: center;
+    color:rgb(206, 208, 209);
+   display:flex;
+   justify-content:center;
+   flex-direction:column;
+   margin-left: auto;
+    
+}
+
+div.content p:hover{
+    transform: scale(1.2);
+}
